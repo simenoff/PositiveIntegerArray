@@ -41,10 +41,10 @@ class Positive
         foreach ($this->data as $value) {
             if ($value % 3 === 0) {
                 $sum += 3;
-                $count++;
+                ++$count;
             } elseif ($value % 5 === 0) {
                 $sum += -5;
-                $count++;
+                ++$count;
             }
         }
 
