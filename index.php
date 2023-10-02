@@ -3,9 +3,9 @@
 $data = [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 14, 15];
 $positive = new Positive($data);
 
-echo "Количество четных элементов: " . $positive->OddCount() . '<br>';
-echo "Массив элементов удовлетворяющих битовой маске 10: " . implode(', ', $positive->MaskList(10)) . '<br>';
-echo "Среднее арифметическое элементов: " . $positive->Average() . '<br>';
+echo 'Количество четных элементов: ' . $positive->OddCount() . '<br>';
+echo 'Массив элементов удовлетворяющих битовой маске 10: ' . implode(', ', $positive->MaskList(10)) . '<br>';
+echo 'Среднее арифметическое элементов: ' . $positive->Average() . '<br>';
 
 class Positive
 {
