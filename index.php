@@ -5,7 +5,7 @@ $positive = new Positive($data);
 
 echo 'Количество четных элементов: ' . $positive->OddCount() . '<br>';
 echo 'Массив элементов удовлетворяющих битовой маске 10: ' . implode(', ', $positive->MaskList(10)) . '<br>';
-echo 'Среднее арифметическое элементов: ' . $positive->Average() . '<br>';
+echo 'Среднее арифметическое: ' . $positive->Average() . '<br>';
 
 class Positive
 {
